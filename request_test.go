@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/lni/dragonboat/v3/client"
-	"github.com/lni/dragonboat/v3/config"
-	"github.com/lni/dragonboat/v3/internal/rsm"
-	pb "github.com/lni/dragonboat/v3/raftpb"
-	sm "github.com/lni/dragonboat/v3/statemachine"
+	"github.com/ik-tech/dragonboat/v3/client"
+	"github.com/ik-tech/dragonboat/v3/config"
+	"github.com/ik-tech/dragonboat/v3/internal/rsm"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
+	sm "github.com/ik-tech/dragonboat/v3/statemachine"
 	"github.com/lni/goutils/random"
 )
 

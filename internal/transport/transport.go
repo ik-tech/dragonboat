@@ -52,15 +52,15 @@ import (
 	circuit "github.com/lni/goutils/netutil/rubyist/circuitbreaker"
 	"github.com/lni/goutils/syncutil"
 
-	"github.com/lni/dragonboat/v3/config"
-	"github.com/lni/dragonboat/v3/internal/invariants"
-	"github.com/lni/dragonboat/v3/internal/server"
-	"github.com/lni/dragonboat/v3/internal/settings"
-	"github.com/lni/dragonboat/v3/internal/vfs"
-	"github.com/lni/dragonboat/v3/logger"
-	ct "github.com/lni/dragonboat/v3/plugin/chan"
-	"github.com/lni/dragonboat/v3/raftio"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/config"
+	"github.com/ik-tech/dragonboat/v3/internal/invariants"
+	"github.com/ik-tech/dragonboat/v3/internal/server"
+	"github.com/ik-tech/dragonboat/v3/internal/settings"
+	"github.com/ik-tech/dragonboat/v3/internal/vfs"
+	"github.com/ik-tech/dragonboat/v3/logger"
+	ct "github.com/ik-tech/dragonboat/v3/plugin/chan"
+	"github.com/ik-tech/dragonboat/v3/raftio"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 const (

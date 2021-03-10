@@ -19,8 +19,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/lni/dragonboat/v3/internal/utils/dio"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/internal/utils/dio"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 func TestGetEntryPayload(t *testing.T) {

@@ -21,12 +21,12 @@ to import this package.
 package logdb
 
 import (
-	"github.com/lni/dragonboat/v3/config"
-	"github.com/lni/dragonboat/v3/internal/logdb/kv"
-	"github.com/lni/dragonboat/v3/internal/vfs"
-	"github.com/lni/dragonboat/v3/logger"
-	"github.com/lni/dragonboat/v3/raftio"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/config"
+	"github.com/ik-tech/dragonboat/v3/internal/logdb/kv"
+	"github.com/ik-tech/dragonboat/v3/internal/vfs"
+	"github.com/ik-tech/dragonboat/v3/logger"
+	"github.com/ik-tech/dragonboat/v3/raftio"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 var (

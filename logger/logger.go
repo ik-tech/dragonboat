@@ -20,7 +20,7 @@ package logger
 import (
 	"sync"
 
-	"github.com/lni/dragonboat/v3/internal/invariants"
+	"github.com/ik-tech/dragonboat/v3/internal/invariants"
 )
 
 // LogLevel is the log level defined in dragonboat.

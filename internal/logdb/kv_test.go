@@ -25,11 +25,11 @@ import (
 
 	"github.com/lni/goutils/leaktest"
 
-	"github.com/lni/dragonboat/v3/config"
-	"github.com/lni/dragonboat/v3/internal/logdb/kv"
-	"github.com/lni/dragonboat/v3/internal/settings"
-	"github.com/lni/dragonboat/v3/internal/vfs"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/config"
+	"github.com/ik-tech/dragonboat/v3/internal/logdb/kv"
+	"github.com/ik-tech/dragonboat/v3/internal/settings"
+	"github.com/ik-tech/dragonboat/v3/internal/vfs"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 func TestKVCanBeCreatedAndClosed(t *testing.T) {

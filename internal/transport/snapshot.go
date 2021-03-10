@@ -37,11 +37,11 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"github.com/lni/dragonboat/v3/internal/rsm"
-	"github.com/lni/dragonboat/v3/internal/settings"
-	"github.com/lni/dragonboat/v3/internal/vfs"
-	"github.com/lni/dragonboat/v3/raftio"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/internal/rsm"
+	"github.com/ik-tech/dragonboat/v3/internal/settings"
+	"github.com/ik-tech/dragonboat/v3/internal/vfs"
+	"github.com/ik-tech/dragonboat/v3/raftio"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 var (

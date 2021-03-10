@@ -17,7 +17,7 @@ package server
 import (
 	"testing"
 
-	"github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 func TestMessageQueueCanBeCreated(t *testing.T) {

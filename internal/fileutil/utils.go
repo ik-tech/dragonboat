@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lni/dragonboat/v3/internal/vfs"
+	"github.com/ik-tech/dragonboat/v3/internal/vfs"
 )
 
 const (

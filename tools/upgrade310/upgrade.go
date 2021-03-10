@@ -17,13 +17,13 @@ package upgrade310
 import (
 	"math"
 
-	"github.com/lni/dragonboat/v3/config"
-	"github.com/lni/dragonboat/v3/internal/logdb"
-	"github.com/lni/dragonboat/v3/internal/rsm"
-	"github.com/lni/dragonboat/v3/internal/server"
-	"github.com/lni/dragonboat/v3/internal/vfs"
-	"github.com/lni/dragonboat/v3/raftio"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/config"
+	"github.com/ik-tech/dragonboat/v3/internal/logdb"
+	"github.com/ik-tech/dragonboat/v3/internal/rsm"
+	"github.com/ik-tech/dragonboat/v3/internal/server"
+	"github.com/ik-tech/dragonboat/v3/internal/vfs"
+	"github.com/ik-tech/dragonboat/v3/raftio"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 // CanUpgradeToV310 determines whether your production dataset is safe to use

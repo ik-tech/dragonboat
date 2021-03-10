@@ -22,7 +22,7 @@ import (
 
 	"github.com/lni/goutils/logutil"
 
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 func addressEqual(addr1 string, addr2 string) bool {

@@ -17,7 +17,7 @@ package rsm
 import (
 	"testing"
 
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 func TestAddressEqual(t *testing.T) {

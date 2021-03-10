@@ -22,6 +22,6 @@ jobs:
         git config --global credential.helper "netrc -d -v"
         git clone https://github.com/lni/drummer2 drummer
         cd drummer
-        go get github.com/lni/dragonboat/v3@master
+        go get github.com/ik-tech/dragonboat/v3@master
         make test
         make $TARGET

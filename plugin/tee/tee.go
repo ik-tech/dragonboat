@@ -15,10 +15,10 @@
 package tee
 
 import (
-	"github.com/lni/dragonboat/v3/config"
-	tl "github.com/lni/dragonboat/v3/internal/logdb/tee"
-	"github.com/lni/dragonboat/v3/internal/vfs"
-	"github.com/lni/dragonboat/v3/raftio"
+	"github.com/ik-tech/dragonboat/v3/config"
+	tl "github.com/ik-tech/dragonboat/v3/internal/logdb/tee"
+	"github.com/ik-tech/dragonboat/v3/internal/vfs"
+	"github.com/ik-tech/dragonboat/v3/raftio"
 )
 
 // CreateTeeLogDB creates a special Tee LogDB module for testing purposes.

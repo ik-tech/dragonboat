@@ -20,8 +20,8 @@ import (
 
 	"github.com/lni/goutils/random"
 
-	"github.com/lni/dragonboat/v3/internal/rsm"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/internal/rsm"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 type getSink func() pb.IChunkSink

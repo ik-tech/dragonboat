@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 
 	"github.com/golang/snappy"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 // CompressionType is the type of the compression.

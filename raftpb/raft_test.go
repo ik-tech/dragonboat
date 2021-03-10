@@ -21,8 +21,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/lni/dragonboat/v3/client"
-	sm "github.com/lni/dragonboat/v3/statemachine"
+	"github.com/ik-tech/dragonboat/v3/client"
+	sm "github.com/ik-tech/dragonboat/v3/statemachine"
 )
 
 func TestStateMachineTypeHaveExpectedValues(t *testing.T) {

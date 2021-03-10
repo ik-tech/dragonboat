@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	sm "github.com/lni/dragonboat/v3/statemachine"
+	sm "github.com/ik-tech/dragonboat/v3/statemachine"
 )
 
 // TestUpdate is a IStateMachine used for testing purposes.

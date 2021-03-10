@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lni/dragonboat/v3/internal/raft"
-	"github.com/lni/dragonboat/v3/internal/vfs"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/internal/raft"
+	"github.com/ik-tech/dragonboat/v3/internal/vfs"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 func removeTestLogdbDir(fs vfs.IFS) {

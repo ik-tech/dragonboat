@@ -17,9 +17,9 @@ package rsm
 import (
 	"io"
 
-	"github.com/lni/dragonboat/v3/config"
-	pb "github.com/lni/dragonboat/v3/raftpb"
-	sm "github.com/lni/dragonboat/v3/statemachine"
+	"github.com/ik-tech/dragonboat/v3/config"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
+	sm "github.com/ik-tech/dragonboat/v3/statemachine"
 )
 
 // IStateMachine is an adapter interface for underlying sm.IStateMachine,

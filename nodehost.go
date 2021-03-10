@@ -29,7 +29,7 @@ underlying hosts) are available.
 
 User applications can leverage the power of the Raft protocol implemented in
 dragonboat by implementing the IStateMachine or IOnDiskStateMachine component,
-as defined in github.com/lni/dragonboat/v3/statemachine. Known as user state
+as defined in github.com/ik-tech/dragonboat/v3/statemachine. Known as user state
 machines, each IStateMachine and IOnDiskStateMachine instance is in charge of
 updating, querying and snapshotting application data with minimum exposure to
 the complexity of the Raft protocol implementation.
@@ -80,7 +80,7 @@ proposals. This is critical for system throughput in high latency environment.
 Dragonboat is also fully batched, internal operations are batched whenever
 possible to maximize the overall throughput.
 */
-package dragonboat // github.com/lni/dragonboat/v3
+package dragonboat // github.com/ik-tech/dragonboat/v3
 
 import (
 	"context"
@@ -95,19 +95,19 @@ import (
 	"github.com/lni/goutils/logutil"
 	"github.com/lni/goutils/syncutil"
 
-	"github.com/lni/dragonboat/v3/client"
-	"github.com/lni/dragonboat/v3/config"
-	"github.com/lni/dragonboat/v3/internal/id"
-	"github.com/lni/dragonboat/v3/internal/invariants"
-	"github.com/lni/dragonboat/v3/internal/logdb"
-	"github.com/lni/dragonboat/v3/internal/rsm"
-	"github.com/lni/dragonboat/v3/internal/server"
-	"github.com/lni/dragonboat/v3/internal/settings"
-	"github.com/lni/dragonboat/v3/internal/transport"
-	"github.com/lni/dragonboat/v3/internal/vfs"
-	"github.com/lni/dragonboat/v3/raftio"
-	pb "github.com/lni/dragonboat/v3/raftpb"
-	sm "github.com/lni/dragonboat/v3/statemachine"
+	"github.com/ik-tech/dragonboat/v3/client"
+	"github.com/ik-tech/dragonboat/v3/config"
+	"github.com/ik-tech/dragonboat/v3/internal/id"
+	"github.com/ik-tech/dragonboat/v3/internal/invariants"
+	"github.com/ik-tech/dragonboat/v3/internal/logdb"
+	"github.com/ik-tech/dragonboat/v3/internal/rsm"
+	"github.com/ik-tech/dragonboat/v3/internal/server"
+	"github.com/ik-tech/dragonboat/v3/internal/settings"
+	"github.com/ik-tech/dragonboat/v3/internal/transport"
+	"github.com/ik-tech/dragonboat/v3/internal/vfs"
+	"github.com/ik-tech/dragonboat/v3/raftio"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
+	sm "github.com/ik-tech/dragonboat/v3/statemachine"
 )
 
 const (

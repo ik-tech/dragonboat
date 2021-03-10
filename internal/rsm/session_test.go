@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	sm "github.com/lni/dragonboat/v3/statemachine"
+	sm "github.com/ik-tech/dragonboat/v3/statemachine"
 )
 
 func TestResponseCanBeAdded(t *testing.T) {

@@ -29,11 +29,11 @@ import (
 	"github.com/lni/goutils/logutil"
 	"github.com/lni/goutils/random"
 
-	"github.com/lni/dragonboat/v3/config"
-	"github.com/lni/dragonboat/v3/internal/server"
-	"github.com/lni/dragonboat/v3/internal/settings"
-	"github.com/lni/dragonboat/v3/logger"
-	pb "github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/config"
+	"github.com/ik-tech/dragonboat/v3/internal/server"
+	"github.com/ik-tech/dragonboat/v3/internal/settings"
+	"github.com/ik-tech/dragonboat/v3/logger"
+	pb "github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 var (

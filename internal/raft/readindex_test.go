@@ -17,7 +17,7 @@ package raft
 import (
 	"testing"
 
-	"github.com/lni/dragonboat/v3/raftpb"
+	"github.com/ik-tech/dragonboat/v3/raftpb"
 )
 
 func getTestSystemCtx(v uint64) raftpb.SystemCtx {

@@ -20,8 +20,8 @@ import (
 
 	"github.com/lni/goutils/leaktest"
 
-	"github.com/lni/dragonboat/v3/config"
-	"github.com/lni/dragonboat/v3/internal/id"
+	"github.com/ik-tech/dragonboat/v3/config"
+	"github.com/ik-tech/dragonboat/v3/internal/id"
 )
 
 func TestNodeHostIDRegistry(t *testing.T) {
