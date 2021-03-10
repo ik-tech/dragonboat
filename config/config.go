@@ -913,6 +913,13 @@ type ExpertConfig struct {
 	// TestGossipProbeInterval define the probe interval used by the gossip
 	// service in tests.
 	TestGossipProbeInterval time.Duration
+	// GossipPushPullInterval is the interval between complete state syncs.
+	GossipPushPullInterval time.Duration
+	// GossipToTheDeadTime is the interval after which a node has died that
+	// we will still try to gossip to it. This gives it a chance to refute.
+	GossipToTheDeadTime time.Duration
+	// DiscardMemberlistLogMessages discards hashicorp/memberlist log messages
+	DiscardMemberlistLogMessages bool
 }
 
 // GossipConfig contains configurations for the gossip service. Gossip service
